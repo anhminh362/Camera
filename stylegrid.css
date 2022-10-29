@@ -1,0 +1,95 @@
+.container{
+background-color: rgb(235, 232, 232);
+display: block; padding-left: 40px;
+width:100%;height: 100%;
+}
+.header{
+    display: grid; 
+}
+.banner{
+    display: inline-flex; padding-bottom: 40px; 
+    padding-top: 10px; padding-left: 10px; background-color: rgb(4, 31, 70);
+}
+.title{
+    color: rgb(255, 255, 255);    
+}
+.tool{background-color: black;
+font-size: larger;}
+.titletool{
+    display: grid; list-style-type: none; min-width: max-content;
+    column-gap: 5px; 
+    grid-template-columns: repeat(12,1fr);
+    color: white; 
+    font-weight: 500; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+.content{
+    display:inline-flex;
+}
+.left{
+    display: block;
+    border-left: 1px solid;border-right: 1px solid;
+     height: auto;
+}
+#category{ border-bottom: 1px solid; font-size: 18px;}
+ul{padding: 0;margin: 0;
+}
+.dropright{
+    list-style-type: none;
+    border-bottom: 1px solid; padding:10px ;
+}
+.dropright{display: flex;}
+li a, .dropmenu1{
+    display: inline-block;
+    color: rgb(61, 70, 207);
+    text-align: center;text-decoration: none;
+    padding: 10px 16px;
+}
+li a:hover, .dropright:hover, .menu:hover{
+    background-color: rgb(234, 247, 190); 
+    color: rgb(10, 10, 70); 
+}
+li.dropright{display: flex}
+.dropright-content{
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 8px rgb(136, 136, 136);
+    z-index: 1;
+}
+.dropright-cotent a{
+    color: rgb(61, 70, 207); 
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; 
+    text-align: left;
+}
+.dropright-content a:hover{
+    background-color: #f1f1f1;
+}
+.dropright:hover .dropright-content{
+    display: block;
+}
+.right{
+    display: block; width: auto;
+}
+#line{
+    height: 100px;
+}
+.total{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px; row-gap: 10px;
+}
+.product{
+    background-color: white;
+    text-align: center; padding: 12px;
+}
+.name{
+    color: blue; font-size: x-large; font-weight: 700;
+}
+.call{
+    color: red; font-weight: bold;
+}
