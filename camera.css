@@ -8,7 +8,8 @@
 }
 .Header{
     display: grid;
-    width: 100%; height: 250px; margin-left: 0px;
+    width: 100%; height: 250px;
+    /* margin-left: 0px; margin-right: 0px; */
     background-color: rgb(38, 72, 104)
 }
 #banner{

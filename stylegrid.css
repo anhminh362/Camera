@@ -1,14 +1,16 @@
 .container{
 background-color: rgb(235, 232, 232);
 display: block; padding-left: 40px;
-width:100%;height: 100%;
+width:100%;height: 100%; padding-right: 0px;
 }
 .header{
     display: grid; 
+    /* width: 100%; */
 }
 .banner{
     display: inline-flex; padding-bottom: 40px; 
-    padding-top: 10px; padding-left: 10px; background-color: rgb(4, 31, 70);
+    padding-top: 10px; padding-left: 10px;
+    background-color: rgb(4, 31, 70);
 }
 .title{
     color: rgb(255, 255, 255);    
@@ -33,7 +35,7 @@ font-size: larger;}
      height: auto;
 }
 #category{ border-bottom: 1px solid; font-size: 18px;}
-ul{padding: 0;margin: 0;
+.menu{padding: 0;margin: 0;
 }
 .dropright{
     list-style-type: none;
@@ -43,7 +45,8 @@ ul{padding: 0;margin: 0;
 li a, .dropmenu1{
     display: inline-block;
     color: rgb(61, 70, 207);
-    text-align: center;text-decoration: none;
+    text-align: center;
+    text-decoration: none;
     padding: 10px 16px;
 }
 li a:hover, .dropright:hover, .menu:hover{
@@ -73,15 +76,19 @@ li.dropright{display: flex}
     display: block;
 }
 .right{
-    display: block; width: auto;
+    display: grid; 
+    /* width: auto; */
 }
 #line{
-    height: 100px;
+    height: 100px; width: 100%;
 }
 .total{
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 10px; row-gap: 10px;
+    width: 100%;
+    margin-left: 100px; 
+    /* padding: 0; margin-right: 0; */
 }
 .product{
     background-color: white;
